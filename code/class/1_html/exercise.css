@@ -1,0 +1,12 @@
+.text_box {
+    display: block;
+    margin-top: 20px;
+}
+
+body h1 {
+    margin-left: 25px;
+}
+
+.go_in:hover {
+    cursor: pointer;
+}
