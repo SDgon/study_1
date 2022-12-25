@@ -57,7 +57,74 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f6f6f6;
 }
 
+.game_image {
+    height: 35%;
+    width: 30%;
+    border-radius: 7px;
+}    
 
+.gametitle {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.game_subtitle {
+    font-size: 11px;
+}
+
+.word_result {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.word_text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.textbox {
+    width: 130px;
+    height: 24px;
+    border-radius: 5px;
+}
+
+.search {
+    font-size: 11px;
+    font-weight: 700;
+    height: 24px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.game_lotto_number {
+    width: 130px;
+    height: 21px;
+    background-color: #ffe400;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 2px 8px;
+}
+
+.game_lotto_button {
+    width: 62px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 11px;
+    font-weight: 700;
+}
